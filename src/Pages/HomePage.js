@@ -13,8 +13,12 @@ function HomePage () {
 
     return (
         <div className='ml-5' >
-           {cars.map((car) => 
-           <h1>{car.marca}</h1>)}
+           {cars.map((car, id) =>
+            <div key={id}>
+                <h1>{car.marca}</h1>
+                <a href={`/car/${car.id}`}>Ver Carro</a>
+            </div>
+           )}
         </div>
     )
 }

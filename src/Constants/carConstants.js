@@ -1,3 +1,7 @@
 export const CAR_REQUEST = "CAR_REQUEST"
 export const CAR_SUCCESS = "CAR_SUCCESS"
 export const CAR_FAIL = "CAR_FAIL"
+
+export const CAR_DETAIL_REQUEST = "CAR_DETAIL_REQUEST"
+export const CAR_DETAIL_SUCCESS = "CAR_DETAIL_SUCCESS"
+export const CAR_DETAIL_FAIL = "CAR_DETAIL_FAIL"
