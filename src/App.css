@@ -1,3 +1,17 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-calendars/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-inputs/styles/material.css";@import "../node_modules/@syncfusion/ej2-react-buttons/styles/material.css";
+
+
 .App {
   text-align: center;
 }
@@ -27,6 +41,23 @@
 .App-link {
   color: #61dafb;
 }
+
+/*Price Slider Start*/
+.e-control-wrapper.e-slider-container.e-horizontal .e-slider-track {
+  background: #c0c0c0;
+  height: 10px;
+  border-radius: 25px
+}
+
+.e-control-wrapper.e-slider-container .e-slider .e-handle {
+  background-color: #000000;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  margin-top: 1.5px;
+}
+/*Price Slider End*/
+
 
 @keyframes App-logo-spin {
   from {

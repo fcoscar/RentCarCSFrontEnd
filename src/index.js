@@ -5,8 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import store from './store'
 import { Provider } from 'react-redux'
+import {registerLicense} from '@syncfusion/ej2-base';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+registerLicense(process.env.REACT_APP_LIC_KEY)
 root.render(
   <Provider store={store}>
     <App />
