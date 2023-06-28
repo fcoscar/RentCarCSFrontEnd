@@ -3,7 +3,7 @@ import { MenuIcon, SearchCircleIcon, UserCircleIcon } from '@heroicons/react/sol
 import { useSelector, useDispatch } from 'react-redux'
 
 import { Link, useNavigate } from 'react-router-dom'
-import {LogIn, LogOut} from "../Actions/userActions";
+import {LogOut} from "../Actions/userActions";
 
 function Header() {
 
@@ -16,9 +16,6 @@ function Header() {
 
     const btnLogOut = () => {
         dispatch(LogOut())
-    }
-    const btnLogin = () => {
-        dispatch(LogIn())
     }
 
     const handleDropdown = () => {
@@ -69,7 +66,7 @@ function Header() {
                         </div>
                     ) : (
                         <div className='flex items-center mr-12'>
-                            <Link to='/login'><button className='rounded-full py-2 px-3 text-xs uppercase font-bold tracking-wider border-gray-300 border-2' onClick={btnLogin}>Iniciar Sesion</button></Link>
+                            <Link to='/login'><button className='rounded-full py-2 px-3 text-xs uppercase font-bold tracking-wider border-gray-300 border-2'>Iniciar Sesion</button></Link>
                         </div>
                     )
 
