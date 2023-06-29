@@ -36,7 +36,7 @@ function Header() {
         <header className='sticky top-0 z-50 bg-white '>
 
             <div className='bg-neutral-50 flex-nowrap space px-4 py-3 shadow-sm border-y '>
-                <div className='flex justify-between xl:ml-55 xl:mr-55'>
+                <div className='flex justify-between xl:ml-60 xl:mr-60'>
                     <div>
                         <a href='/'> <img className='relative h-10 w-20 ml-12' src='https://i.ibb.co/2jb1xdD/W.jpg' alt=''/></a>
                     </div>
