@@ -50,6 +50,11 @@
   height: 10px;
   border-radius: 25px
 }
+.e-slider-tooltip.e-tooltip-wrap.e-popup.e-slider-tooltip .e-tip-content,
+.e-slider-tooltip.e-tooltip-wrap.e-popup.e-material-range .e-tip-content.e-material-tooltip-show {
+  color: ghostwhite;
+  /*text color*/
+}
 
 .e-control-wrapper.e-slider-container .e-slider .e-handle {
   background-color: #000000;
@@ -57,6 +62,31 @@
   height: 15px;
   width: 15px;
   margin-top: 1.5px;
+}
+
+.e-tooltip-cutomization.e-slider-tooltip.e-tooltip-wrap.e-popup .e-arrow-tip-inner{
+  color: #000000;
+}
+
+.e-tooltip-cutomization.e-slider-tooltip.e-tooltip-wrap.e-popup .e-arrow-tip-outer {
+  border-top-color: #000000;
+}
+
+.e-tooltip-cutomization.e-slider-tooltip.e-tooltip-wrap.e-popup .e-arrow-tip-outer {
+  border-bottom-color: #000000;
+}
+.e-tooltip-cutomization.e-slider-tooltip.e-tooltip-wrap.e-popup.e-material-default.e-slider-horizontal-after,
+.e-tooltip-cutomization.e-slider-tooltip.e-tooltip-wrap.e-popup.e-material-default.e-slider-horizontal-before,
+.e-tooltip-cutomization.e-slider-tooltip.e-tooltip-wrap.e-popup {
+  background-color: #000000;
+  border-color: #000000;
+}
+.e-tooltip-cutomization.e-slider-tooltip.e-tooltip-wrap.e-popup .e-arrow-tip-outer {
+  border-top-color: #000000;
+}
+
+.e-tooltip-cutomization.e-slider-tooltip.e-tooltip-wrap.e-popup .e-arrow-tip-inner {
+  color: #000000;
 }
 /*Price Slider End*/
 

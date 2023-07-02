@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function Cards({car}) {
     return (
         <Link to={`/car/${car.id}`} >
-            <div className='mt-5 space-x-1 cursor-pointer hover:scale-105 transition transform duration-200 ease-out'>
+            <div className='mt-5 space-x-1 cursor-pointer hover:scale-105 transition transsform duration-200 ease-out'>
                 <div className='flex justify-center items-center h-44 overflow-hidden '>
                     {/*<img src={image.image_url} alt='' className=''/>*/}
                 </div>
